@@ -1,0 +1,22 @@
+{
+  "name": "lawful",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lawful — AI 법률 상담 서비스 (www.lawful.co.kr)",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "node --env-file=.env dev-server.mjs",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
